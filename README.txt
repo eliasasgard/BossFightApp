@@ -38,6 +38,8 @@ Create the database Secret:
 >kubectl create secret generic db-secrets --namespace character-app --from-env-file=k8s/db-secrets.env
 
 3. Deploy the application
+Create a kubernetes cluster in Docker Desktop.
+
 >kubectl apply -f k8s/app.yaml -n character-app
 
 Forward the port to your machine:

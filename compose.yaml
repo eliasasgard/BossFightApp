@@ -6,7 +6,6 @@ services:
     ports:
       - "8080:8080"
     environment:
-    #  ASPNETCORE_URLS: "http://+:8080"
       CharacterService__BaseUrl: "http://characterservice:8080"
     depends_on:
       - characterservice
@@ -22,7 +21,6 @@ services:
     ports:
       - "8081:8080"
     environment:
-      #ASPNETCORE_URLS: "http://+:8080"
       ConnectionStrings__CharacterDatabase: "Host=characters-db;Port=5432;Database=characters;Username=characteruser;Password=devpassword"
       HistoryService__BaseUrl: "http://historyservice:8080"
     depends_on:
@@ -38,7 +36,6 @@ services:
     ports:
       - "8082:8080"
     environment:
-      #ASPNETCORE_URLS: "http://+:8080"
       ConnectionStrings__HistoryDatabase: "Host=history-db;Port=5432;Database=history;Username=historyuser;Password=devpassword"
     depends_on:
       history-db:
