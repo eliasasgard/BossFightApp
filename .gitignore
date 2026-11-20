@@ -1,8 +1,8 @@
-**.dockerignore
-*'/.env
+**/.dockerignore
+**/.env
 **/.git
 **/.gitignore
-*'/.vs
+**/.vs
 **/.vscode
 **/bin/
 **/obj/
