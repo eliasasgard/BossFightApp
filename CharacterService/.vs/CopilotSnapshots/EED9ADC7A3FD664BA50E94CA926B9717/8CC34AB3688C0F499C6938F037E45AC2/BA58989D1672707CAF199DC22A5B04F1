@@ -1,0 +1,90 @@
+﻿
+@model CharacterWebsite.Models.CharacterForm
+@{
+    ViewData["Title"] = "Create Character";
+}
+
+
+<h1>Character Creator</h1>
+<section class="mt-2 mb-2">
+    <h2>Create your character below</h2>
+    <form asp-controller="Character" asp-action="Create" method="post" class="left-content mb-3 mt-3">
+
+        <div class="form-group mb-3">
+            <label asp-for="@Model.Name">Name(s)</label>
+            <input asp-for="@Model.Name" class="form-control" />
+            <span asp-validation-for="@Model.Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="@Model.Species"></label>
+            <input asp-for="@Model.Species" class="form-control" />
+            <span asp-validation-for="@Model.Species" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="@Model.MaxHp">HP</label>
+            <input asp-for="@Model.MaxHp" class="form-control" />
+            <span asp-validation-for="@Model.MaxHp" class="text-danger" inputmode="numeric"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="@Model.Weapon"></label>
+            <select asp-for="@Model.Weapon" id="weaponSelect" class="form-control">
+                <option value="">-- Select weapon --</option>
+                @foreach (var w in (List<WeaponDto>)ViewBag.Weapons)
+                    {
+                        <option value="@w.Name"
+                                data-damage="@w.Damage"
+                                data-attack-speed="@w.WeaponSpeed"
+                                data-defence="@w.Defence"
+                                data-defence-speed="@w.DefenceSpeed">
+                            @w.Name
+                        </option>
+                    }
+            </select>
+            <span asp-validation-for="@Model.Weapon" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="@Model.WeaponDamage"></label>
+            <input asp-for="@Model.WeaponDamage" id="weaponDamage" class="form-control" readonly />
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="@Model.WeaponSpeed">Attack Speed</label>
+            <input asp-for="@Model.WeaponSpeed" id="weaponSpeed" class="form-control" readonly />
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="@Model.WeaponDefence"></label>
+            <input asp-for="@Model.WeaponDefence" id="weaponDefence" class="form-control" readonly />
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="@Model.WeaponDefenceSpeed">Attack Speed</label>
+            <input asp-for="@Model.WeaponDefenceSpeed" id="weaponDefenceSpeed" class="form-control" readonly />
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+</section>
+@section Scripts {
+    <script>
+        const select = document.getElementById('weaponSelect');
+        const damage = document.getElementById('weaponDamage');
+        const speed  = document.getElementById('weaponSpeed');
+        const defence = document.getElementById('weaponDefence');
+        const defenceSpeed = document.getElementById('weaponDefenceSpeed');
+
+        function showStats() {
+            const opt = select.selectedOptions[0];
+            damage.value = opt?.dataset.damage ?? '';
+            speed.value  = opt?.dataset.speed ?? '';
+            defence.value = opt?.dataset.defence ?? '';
+            defenceSpeed.value = opt?.dataset.defenceSpeed ?? '';
+        }
+
+        select.addEventListener('change', showStats);
+        showStats(); // also fills in the stats when the form is redisplayed
+    </script>
+}

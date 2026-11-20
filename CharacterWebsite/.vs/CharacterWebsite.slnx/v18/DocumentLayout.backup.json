@@ -1,0 +1,579 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{652B65F0-2BCF-E60F-7E7F-2ED5C82579FC}|..\\CharacterService\\CharacterService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652B65F0-2BCF-E60F-7E7F-2ED5C82579FC}|..\\CharacterService\\CharacterService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E655AB73-3194-0017-9A1C-3EE73F07FF9F}|..\\HistoryService\\HistoryService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\historyservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E655AB73-3194-0017-9A1C-3EE73F07FF9F}|..\\HistoryService\\HistoryService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\historyservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652B65F0-2BCF-E60F-7E7F-2ED5C82579FC}|..\\CharacterService\\CharacterService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E655AB73-3194-0017-9A1C-3EE73F07FF9F}|..\\HistoryService\\HistoryService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\historyservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652B65F0-2BCF-E60F-7E7F-2ED5C82579FC}|..\\CharacterService\\CharacterService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterservice\\characterservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\views\\fight\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:views\\fight\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\wwwroot\\css\\fight.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:wwwroot\\css\\fight.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\wwwroot\\js\\fight.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:wwwroot\\js\\fight.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\views\\character\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:views\\character\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E655AB73-3194-0017-9A1C-3EE73F07FF9F}|..\\HistoryService\\HistoryService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\historyservice\\models\\historyentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E655AB73-3194-0017-9A1C-3EE73F07FF9F}|..\\HistoryService\\HistoryService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\historyservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\views\\character\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:views\\character\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\views\\character\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:views\\character\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\viewmodel\\characterdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:viewmodel\\characterdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\models\\characterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:models\\characterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\models\\fight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:models\\fight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\controllers\\fightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:controllers\\fightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\controllers\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:controllers\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\clients\\characterclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:clients\\characterclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterwebsite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E760BD03-6F6F-E31A-A70D-82CE65455DCE}|CharacterWebsite.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652B65F0-2BCF-E60F-7E7F-2ED5C82579FC}|..\\CharacterService\\CharacterService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterservice\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652B65F0-2BCF-E60F-7E7F-2ED5C82579FC}|..\\CharacterService\\CharacterService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterservice\\models\\damagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652B65F0-2BCF-E60F-7E7F-2ED5C82579FC}|..\\CharacterService\\CharacterService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterservice\\models\\characterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652B65F0-2BCF-E60F-7E7F-2ED5C82579FC}|..\\CharacterService\\CharacterService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterservice\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652B65F0-2BCF-E60F-7E7F-2ED5C82579FC}|..\\CharacterService\\CharacterService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterservice\\models\\catalogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652B65F0-2BCF-E60F-7E7F-2ED5C82579FC}|..\\CharacterService\\CharacterService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652B65F0-2BCF-E60F-7E7F-2ED5C82579FC}|..\\CharacterService\\CharacterService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterservice\\controllers\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652B65F0-2BCF-E60F-7E7F-2ED5C82579FC}|..\\CharacterService\\CharacterService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\characterservice\\clients\\historyclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E655AB73-3194-0017-9A1C-3EE73F07FF9F}|..\\HistoryService\\HistoryService.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\application\\historyservice\\migrations\\20261112134206_adddescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\CharacterService\\appsettings.Development.json",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\appsettings.Development.json",
+              "RelativeToolTip": "..\\CharacterService\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-18T16:33:47.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\CharacterService\\appsettings.json",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\appsettings.json",
+              "RelativeToolTip": "..\\CharacterService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-18T16:33:42.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\HistoryService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\HistoryService\\appsettings.Development.json",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\HistoryService\\appsettings.Development.json",
+              "RelativeToolTip": "..\\HistoryService\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-18T16:33:27.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\HistoryService\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\HistoryService\\appsettings.json",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\HistoryService\\appsettings.json",
+              "RelativeToolTip": "..\\HistoryService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-18T16:22:26.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\HistoryService\\Program.cs",
+              "RelativeDocumentMoniker": "..\\HistoryService\\Program.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\HistoryService\\Program.cs",
+              "RelativeToolTip": "..\\HistoryService\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T10:17:53.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CharacterService.csproj",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\CharacterService.csproj",
+              "RelativeDocumentMoniker": "..\\CharacterService\\CharacterService.csproj",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\CharacterService.csproj",
+              "RelativeToolTip": "..\\CharacterService\\CharacterService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-18T10:08:59.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HistoryEntry.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\HistoryService\\Models\\HistoryEntry.cs",
+              "RelativeDocumentMoniker": "..\\HistoryService\\Models\\HistoryEntry.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\HistoryService\\Models\\HistoryEntry.cs",
+              "RelativeToolTip": "..\\HistoryService\\Models\\HistoryEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T09:47:16.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Program.cs",
+              "RelativeDocumentMoniker": "..\\CharacterService\\Program.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Program.cs",
+              "RelativeToolTip": "..\\CharacterService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T17:19:25.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T17:00:22.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Views\\Character\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Character\\Details.cshtml",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Views\\Character\\Details.cshtml",
+              "RelativeToolTip": "Views\\Character\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-13T08:15:03.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Views\\Character\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Character\\Create.cshtml",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Views\\Character\\Create.cshtml",
+              "RelativeToolTip": "Views\\Character\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T13:48:14.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Views\\Character\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Character\\List.cshtml",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Views\\Character\\List.cshtml",
+              "RelativeToolTip": "Views\\Character\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T14:37:43.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Views\\Fight\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Fight\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Views\\Fight\\Index.cshtml",
+              "RelativeToolTip": "Views\\Fight\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T09:27:34.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\HistoryService\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\HistoryService\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\HistoryService\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\HistoryService\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T10:32:00.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "fight.js",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\wwwroot\\js\\fight.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\fight.js",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\wwwroot\\js\\fight.js",
+              "RelativeToolTip": "wwwroot\\js\\fight.js",
+              "ViewState": "AgIAADwAAAAAAAAAAAAiwGIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-13T10:05:00.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "fight.css",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\wwwroot\\css\\fight.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\fight.css",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\wwwroot\\css\\fight.css",
+              "RelativeToolTip": "wwwroot\\css\\fight.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-12T09:28:36.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-13T10:36:53.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CharacterForm.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Models\\CharacterForm.cs",
+              "RelativeDocumentMoniker": "Models\\CharacterForm.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Models\\CharacterForm.cs",
+              "RelativeToolTip": "Models\\CharacterForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T12:58:23.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Fight.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Models\\Fight.cs",
+              "RelativeDocumentMoniker": "Models\\Fight.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Models\\Fight.cs",
+              "RelativeToolTip": "Models\\Fight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T09:34:50.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-12T14:52:14.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FightController.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Controllers\\FightController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FightController.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Controllers\\FightController.cs",
+              "RelativeToolTip": "Controllers\\FightController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwH0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T08:42:04.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CharacterController.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Controllers\\CharacterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CharacterController.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Controllers\\CharacterController.cs",
+              "RelativeToolTip": "Controllers\\CharacterController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T11:58:52.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CharacterDetails.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\ViewModel\\CharacterDetails.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CharacterDetails.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\ViewModel\\CharacterDetails.cs",
+              "RelativeToolTip": "ViewModel\\CharacterDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T08:36:32.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CharacterClient.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Clients\\CharacterClient.cs",
+              "RelativeDocumentMoniker": "Clients\\CharacterClient.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\Clients\\CharacterClient.cs",
+              "RelativeToolTip": "Clients\\CharacterClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T12:06:56.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterWebsite\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-13T08:18:46.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "..\\CharacterService\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "..\\CharacterService\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T09:56:55.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CharacterRequest.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Models\\CharacterRequest.cs",
+              "RelativeDocumentMoniker": "..\\CharacterService\\Models\\CharacterRequest.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Models\\CharacterRequest.cs",
+              "RelativeToolTip": "..\\CharacterService\\Models\\CharacterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T12:57:55.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Models\\Character.cs",
+              "RelativeDocumentMoniker": "..\\CharacterService\\Models\\Character.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Models\\Character.cs",
+              "RelativeToolTip": "..\\CharacterService\\Models\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T09:55:34.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\CharacterService\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\CharacterService\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T09:55:03.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CharacterController.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Controllers\\CharacterController.cs",
+              "RelativeDocumentMoniker": "..\\CharacterService\\Controllers\\CharacterController.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Controllers\\CharacterController.cs",
+              "RelativeToolTip": "..\\CharacterService\\Controllers\\CharacterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM4AAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T11:59:44.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HistoryClient.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Clients\\HistoryClient.cs",
+              "RelativeDocumentMoniker": "..\\CharacterService\\Clients\\HistoryClient.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Clients\\HistoryClient.cs",
+              "RelativeToolTip": "..\\CharacterService\\Clients\\HistoryClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T12:58:57.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DamageRequest.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Models\\DamageRequest.cs",
+              "RelativeDocumentMoniker": "..\\CharacterService\\Models\\DamageRequest.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Models\\DamageRequest.cs",
+              "RelativeToolTip": "..\\CharacterService\\Models\\DamageRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T12:02:41.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Catalogs.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Models\\Catalogs.cs",
+              "RelativeDocumentMoniker": "..\\CharacterService\\Models\\Catalogs.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\CharacterService\\Models\\Catalogs.cs",
+              "RelativeToolTip": "..\\CharacterService\\Models\\Catalogs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T14:25:48.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20261112134206_AddDescription.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\HistoryService\\Migrations\\20261112134206_AddDescription.cs",
+              "RelativeDocumentMoniker": "..\\HistoryService\\Migrations\\20261112134206_AddDescription.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Application\\HistoryService\\Migrations\\20261112134206_AddDescription.cs",
+              "RelativeToolTip": "..\\HistoryService\\Migrations\\20261112134206_AddDescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T13:42:06.368Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1908,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

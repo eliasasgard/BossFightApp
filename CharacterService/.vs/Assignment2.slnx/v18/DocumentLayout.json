@@ -1,0 +1,175 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\assignment\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\assignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\assignment\\controllers\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|solutionrelative:controllers\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\assignment\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|solutionrelative:models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\assignment\\views\\character\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|solutionrelative:views\\character\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\assignment\\views\\character\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|solutionrelative:views\\character\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|d:\\documents\\plugg\\cloud-computing-and-big-data\\cloud-computing\\assignment\\assignment\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2F6971-6774-4A5A-34CD-9608E145B878}|Assignment.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T11:25:19.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Views\\Character\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Character\\List.cshtml",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Views\\Character\\List.cshtml",
+              "RelativeToolTip": "Views\\Character\\List.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T16:19:23.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CharacterController.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Controllers\\CharacterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CharacterController.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Controllers\\CharacterController.cs",
+              "RelativeToolTip": "Controllers\\CharacterController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T16:18:05.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-20T16:16:08.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Views\\Character\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Character\\Create.cshtml",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Views\\Character\\Create.cshtml",
+              "RelativeToolTip": "Views\\Character\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T08:55:32.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Models\\Character.cs",
+              "RelativeDocumentMoniker": "Models\\Character.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Models\\Character.cs",
+              "RelativeToolTip": "Models\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T08:55:19.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T08:26:48.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "D:\\Documents\\Plugg\\Cloud-computing-and-Big-Data\\Cloud-Computing\\Assignment\\Assignment\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T08:21:16.658Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 117,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
