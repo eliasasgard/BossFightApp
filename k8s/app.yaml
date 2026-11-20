@@ -1,0 +1,413 @@
+ #Namespace
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: character-app
+  labels:
+    pod-security.kubernetes.io/enforce: baseline
+    pod-security.kubernetes.io/warn: restricted
+    pod-security.kubernetes.io/audit: restricted
+---
+
+# characters-db (Postgres)
+# Service for characters database. Gives the database the stable DNS name "characters-db"s
+# The selector picks Pods carrying the label app=characters-db
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: character-app
+  name: characters-db
+spec:
+  clusterIP: None #Headless service, DNS name resolves to the Pod IP
+  selector:
+    app: characters-db
+  ports:
+    - port: 5432
+---
+# characters database, statefulset for a persistent volume (characters-db-0)
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  namespace: character-app
+  name: characters-db
+spec:
+  serviceName: characters-db
+  replicas: 1
+  selector:
+    matchLabels:
+      app: characters-db
+  template:
+    metadata:
+      labels:
+        app: characters-db
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 999
+        runAsGroup: 999
+        fsGroup: 999
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: postgres
+          image: postgres:18
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+                - ALL
+          ports:
+            - containerPort: 5432
+          env:
+            - name: POSTGRES_DB
+              value: characters
+            - name: POSTGRES_USER
+              value: characteruser
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: db-secrets
+                  key: characters-db-password
+          volumeMounts:
+            - name: data
+              mountPath: /var/lib/postgresql
+  # Creates a PersistentVolumeClaim 
+  volumeClaimTemplates:
+    - metadata:
+        name: data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 100Mi
+---
+# history-db (Postgres)
+# Service for history database. Gives the database the stable DNS name "history-db"s
+# The selector picks Pods carrying the label app=history-db
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: character-app
+  name: history-db
+spec:
+  clusterIP: None #Headless service: DNS name resolves to the Pod IP
+  selector:
+    app: history-db
+  ports:
+    - port: 5432
+---
+# history database statefulset. Keeps a persistent volume
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  namespace: character-app
+  name: history-db
+spec:
+  serviceName: history-db
+  replicas: 1
+  selector:
+    matchLabels:
+      app: history-db
+  template:
+    metadata:
+      labels:
+        app: history-db
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 999
+        runAsGroup: 999
+        fsGroup: 999
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: postgres
+          image: postgres:18
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+                - ALL
+          ports:
+            - containerPort: 5432
+          env:
+            - name: POSTGRES_DB
+              value: history
+            - name: POSTGRES_USER
+              value: historyuser
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: db-secrets
+                  key: history-db-password
+          volumeMounts:
+            - name: data
+              mountPath: /var/lib/postgresql
+  volumeClaimTemplates:
+    - metadata:
+        name: data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 100Mi
+---
+
+# historyservice Deployment. Stateless. Restarts it if it crashes.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: character-app
+  name: historyservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: historyservice
+  template:
+    metadata:
+      labels:
+        app: historyservice
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: historyservice
+          image: eliasasgard/history-service:1.2
+          imagePullPolicy: IfNotPresent
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+                - ALL
+          ports:
+            - containerPort: 8080            # ASP.NET Core listens on 8080
+          resources:
+            requests:
+              memory: "50Mi"
+              cpu: "0.5"
+            limits: 
+              memory: "100Mi"
+              cpu: "1"
+
+
+          Health checks:
+          startupProbe:
+            httpGet:
+              path: /health/live
+              port: 8080
+            initialDelaySeconds: 5
+          #   periodSeconds: 3
+          #   failureThreshold: 10
+          
+          livenessProbe:
+            httpGet:
+              path: /health/live
+              port: 8080
+            initialDelaySeconds: 5
+            # periodSeconds: 10
+            # timeoutSeconds: 3
+            # failureThreshold: 3
+
+          readinessProbe:
+            httpGet:
+              path: /health/ready
+              port: 8080
+            # periodSeconds: 5
+            # timeoutSeconds: 3
+            # failureThreshold: 2
+          
+          # Environment variables:
+          env:
+            - name: HISTORY_DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: db-secrets
+                  key: history-db-password
+            - name: ConnectionStrings__HistoryDatabase
+              value: "Host=history-db;Port=5432;Database=history;Username=historyuser;Password=$(HISTORY_DB_PASSWORD)"
+---
+
+# historyservice Service of type ClusterIP. Exposes the historyservice to other pods in the cluster.
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: character-app
+  name: historyservice
+spec:
+  selector:
+    app: historyservice
+  ports:
+    - port: 8080
+---
+
+# characterservice Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: character-app
+  name: characterservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: characterservice
+  template:
+    metadata:
+      labels:
+        app: characterservice
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: characterservice
+          image: eliasasgard/character-service:1.2
+          imagePullPolicy: IfNotPresent
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+                - ALL
+          ports:
+            - containerPort: 8080
+          resources:
+            requests:
+              memory: "50Mi"
+              cpu: "0.5"
+            limits: 
+              memory: "100Mi"
+              cpu: "1"
+
+          Health checks:
+          startupProbe:
+            httpGet:
+              path: /health/live
+              port: 8080
+            initialDelaySeconds: 5
+          
+          livenessProbe:
+            httpGet:
+              path: /health/live
+              port: 8080
+            initialDelaySeconds: 5
+            # periodSeconds: 10
+            # timeoutSeconds: 3
+            # failureThreshold: 3
+
+          readinessProbe:
+            httpGet:
+              path: /health/ready
+              port: 8080
+            # periodSeconds: 5
+            # timeoutSeconds: 3
+            # failureThreshold: 2
+          
+          # Environment variables:          
+          env:
+            - name: CHARACTERS_DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: db-secrets
+                  key: characters-db-password
+            - name: ConnectionStrings__CharacterDatabase
+              value: "Host=characters-db;Port=5432;Database=characters;Username=characteruser;Password=$(CHARACTERS_DB_PASSWORD)"
+            - name: HistoryService__BaseUrl
+              value: "http://historyservice:8080"   # same as in compose
+---
+# characterservice Service of type ClusterIP. Exposes the characterservice to other pods in the cluster.
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: character-app
+  name: characterservice
+spec:
+  selector:
+    app: characterservice
+  ports:
+    - port: 8080
+---
+
+# website Deployment
+# The website talks to the characterservice, which talks to the historyservice, which talks to the databases.
+# The website is the only service exposed outside the cluster, via a LoadBalancer Service.
+# Uses CharacterService__BaseUrl to tell the website where to find the characterservice.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: character-app
+  name: website
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: website
+  template:
+    metadata:
+      labels:
+        app: website
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: website
+          image: eliasasgard/character-website:1.2
+          imagePullPolicy: Always
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+                - ALL
+          ports:
+            - containerPort: 8080
+          
+          Health checks:
+          startupProbe:
+            httpGet:
+              path: /health/live
+              port: 8080
+            initialDelaySeconds: 5
+            # periodSeconds: 5
+            # failureThreshold: 10
+          
+          livenessProbe:
+            httpGet:
+              path: /health/live
+              port: 8080
+            initialDelaySeconds: 5
+            # periodSeconds: 10
+            # timeoutSeconds: 3
+            # failureThreshold: 3
+
+          readinessProbe:
+            httpGet:
+              path: /health/ready
+              port: 8080
+            # periodSeconds: 5
+            # timeoutSeconds: 3
+            # failureThreshold: 2
+          
+          # Environment variables:
+          env:
+            - name: CharacterService__BaseUrl
+              value: "http://characterservice:8080"
+---
+
+# Service for the website. LoadBalancer so you can browse to http://localhost:8080 outside of the cluster
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: character-app
+  name: website
+spec:
+  type: LoadBalancer
+  selector:
+    app: website
+  ports:
+    - port: 8080          # port on localhost
+      targetPort: 8080    # port in the container

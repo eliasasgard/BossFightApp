@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CharacterService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\CharacterWebsite\\CharacterWebsite.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\HistoryService\\HistoryService.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

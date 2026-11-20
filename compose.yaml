@@ -1,0 +1,83 @@
+services:
+  website:
+    build:
+      context: .
+      dockerfile: CharacterWebsite/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+    #  ASPNETCORE_URLS: "http://+:8080"
+      CharacterService__BaseUrl: "http://characterservice:8080"
+    depends_on:
+      - characterservice
+    develop:
+      watch:
+        - action: rebuild
+          path: .
+
+  characterservice:
+    build:
+      context: .
+      dockerfile: CharacterService/Dockerfile
+    ports:
+      - "8081:8080"
+    environment:
+      #ASPNETCORE_URLS: "http://+:8080"
+      ConnectionStrings__CharacterDatabase: "Host=characters-db;Port=5432;Database=characters;Username=characteruser;Password=devpassword"
+      HistoryService__BaseUrl: "http://historyservice:8080"
+    depends_on:
+      characters-db:
+        condition: service_healthy
+      historyservice:
+        condition: service_started
+
+  historyservice:
+    build:
+      context: .
+      dockerfile: HistoryService/Dockerfile
+    ports:
+      - "8082:8080"
+    environment:
+      #ASPNETCORE_URLS: "http://+:8080"
+      ConnectionStrings__HistoryDatabase: "Host=history-db;Port=5432;Database=history;Username=historyuser;Password=devpassword"
+    depends_on:
+      history-db:
+        condition: service_healthy
+
+  characters-db:
+    image: postgres:18
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: characters
+      POSTGRES_USER: characteruser
+      POSTGRES_PASSWORD: devpassword
+    volumes:
+      - character-data:/var/lib/postgresql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U characteruser -d characters"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  history-db:
+    image: postgres:18
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: history
+      POSTGRES_USER: historyuser
+      POSTGRES_PASSWORD: devpassword
+    volumes:
+      - history-data:/var/lib/postgresql
+    ports:
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U historyuser -d history"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  character-data:
+  history-data:

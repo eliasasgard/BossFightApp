@@ -1,0 +1,57 @@
+﻿@model CharacterWebsite.ViewModel.CharacterDetails
+
+@{
+    ViewData["Title"] = "Character Details";
+}
+
+<aside class="mt-2 mb-4">
+    <a asp-controller="Character" asp-action="List" class="btn btn-primary mb-2">Back to list</a>
+    @if (Model.Character.CurrentHp > 0)
+    {
+        <a asp-controller="Fight" asp-action="Index" asp-route-id="@Model.Character.Id" class="btn btn-primary mb-2">Use this character to Fight!</a>
+    }
+    <form class="mb-2" asp-controller="Character" asp-action="Delete" asp-route-id="@Model.Character.Id" method="post">
+        <button type="submit" class="btn btn-danger">Delete</button>
+    </form>
+</aside>
+
+<h1 class="mt-3">About @Model.Character.Name the @Model.Character.Species</h1>
+<section class="mt-2 mb-2">
+    <h2>Details</h2>
+    <p><label class="fw-bold">Name: <label class="fw-normal">@Model.Character.Name</label></label></p>
+    <p><label class="fw-bold">Species: <label class="fw-normal">@Model.Character.Species</label></label></p>
+    <p><label class="fw-bold">Weapon: <label class="fw-normal">@Model.Character.Weapon</label></label></p>
+    <p><label class="fw-bold">Max HP: <label class="fw-normal">@Model.Character.MaxHp</label></label></p>
+    <p><label class="fw-bold">Current HP: <label class="fw-normal">@Model.Character.CurrentHp</label></label></p>
+    <p><label class="fw-bold">Condition: <label class="fw-normal">@(Model.Character.CurrentHp > 0 ? "Alive" : "Dead")</label></label></p>
+    <p><label class="fw-bold">Last change: <label class="fw-normal">@Model.Character.LastModified</label></label></p>
+</section>
+<section class="mt-2 mb-2">
+    
+</section>
+<section class="mt-2 mb-2">
+    <h2 class="h4 mt-4">History</h2>
+    @if (Model.History.Count == 0)
+    {
+        <p class="text-muted">Nothing has happened to @Model.Character.Name yet.</p>
+    }
+    else
+    {
+        <table class="table table-sm">
+            <thead><tr><th>When</th><th>What happened</th></tr></thead>
+            <tbody>
+                @foreach (var e in Model.History)
+                {
+                    <tr>
+                        <td class="text-nowrap">@e.TimeChanged.ToString("yyyy-MM-dd HH:mm:ss") UTC</td>
+                        <td>
+                            @(string.IsNullOrWhiteSpace(e.Description)
+                                ? $"'{e.Field}' changed from '{e.OldValue}' to '{e.NewValue}'"
+                                : e.Description)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</section>

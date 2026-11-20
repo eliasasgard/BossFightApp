@@ -1,0 +1,47 @@
+﻿@model IEnumerable<CharacterWebsite.Models.CharacterDto>
+@{
+    ViewData["Title"] = "Character List";
+}
+
+<section class="mt-2">
+    <p>This page lists all characters that have been created.</p>
+</section>
+
+<section class="mt-4">
+    <h2>Characters</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Species</th>
+                <th>Max HP</th>
+                <th>Current HP</th>
+                <th>Weapon</th>
+                @* <th>Weapon damage</th> *@
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                @foreach (var character in Model)
+                {
+                    @if (character.Id > 0)
+                    {
+                        <tr>
+                            <td>@character.Name</td>
+                            <td>@character.Species</td>
+                            <td>@character.MaxHp</td>
+                            <td>@character.CurrentHp</td>
+                            <td>@character.Weapon</td>
+                            @* <td>@character.WeaponDamage</td> *@
+                            <td>
+                                @if (character.CurrentHp > 0) {
+                                    <a asp-controller="Fight" asp-action="Index" asp-route-id="@character.Id">Fight!</a> @:|
+                                }
+                                <a asp-controller="Character" asp-action="Details" asp-route-id="@character.Id">Details</a>
+                            </td>
+                        </tr>
+                    }
+                }
+        </tbody>
+    </table>
+</section>

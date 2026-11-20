@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../CharacterWebsite/CharacterWebsite.csproj" />
+  <Project Path="../HistoryService/HistoryService.csproj" />
+  <Project Path="CharacterService.csproj" />
+</Solution>

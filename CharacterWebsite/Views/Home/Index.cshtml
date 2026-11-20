@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Ultimate Boss Fighter";
+}
+
+<div class="text-center">
+
+    <h1>Create your character and fight The Boss!</h1>
+    <p>
+        <b>Welcome</b> to the ultimate boss fighting game! You can create your own character and fight <b>The Boss</b>.
+    </p>
+    <p>
+        Create your character <a asp-controller="Character" asp-action="Create" class="event-button">here</a>
+    </p>
+    <p>
+        or pick a character <a asp-controller="Character" asp-action="List" class="event-button">here</a> and start fighting <b>The Boss</b>!
+    </p>
+
+    <img src="~/images/TheBoss.png" alt="The Boss" class="img-fluid figure-img"/>
+
+</div>
