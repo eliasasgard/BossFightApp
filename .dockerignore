@@ -1,0 +1,9 @@
+**/.env
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/bin/
+**/obj/
+**/k8s/db-secrets.env
+**/dist
