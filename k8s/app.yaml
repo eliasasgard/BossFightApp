@@ -175,7 +175,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: historyservice
-          image: eliasasgard/history-service:1.2
+          image: YOURUSERNAME/history-service:1.0
           imagePullPolicy: IfNotPresent
           securityContext:
             allowPrivilegeEscalation: false
@@ -257,7 +257,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: characterservice
-          image: eliasasgard/character-service:1.2
+          image: YOURUSERNAME/character-service:1.0
           imagePullPolicy: IfNotPresent
           securityContext:
             allowPrivilegeEscalation: false
@@ -342,7 +342,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: website
-          image: eliasasgard/character-website:1.2
+          image: YOURUSERNAME/character-website:1.0
           imagePullPolicy: Always
           securityContext:
             allowPrivilegeEscalation: false
